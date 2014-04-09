@@ -1,0 +1,10 @@
+name    'ericsson-hponcfg'
+version '0.1.0'
+source 'git://github.com/Ericsson/puppet-module-hponcfg.git'
+author 'ericsson'
+license 'Apache License, Version 2.0'
+summary 'Manage HP online Configuration utility'
+description 'Manage HP online Configuration utility'
+project_page 'https://github.com/Ericsson/puppet-module-hponcfg'
+
+dependency 'puppetlabs/stdlib', '>= 3.2.0'
