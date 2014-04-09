@@ -26,7 +26,7 @@ Ensure value for the packges
 
 xmlfiles
 --------
-Hash of hponcfg::xmlfile resources. See more below.
+Hash of hponcfg::xmlfile resources. See documentation below.
 
 - *Default*: undef
 
@@ -34,7 +34,7 @@ Hash of hponcfg::xmlfile resources. See more below.
 
 # Define: hponcfg::xmlfile
 
-Creates XML files for hponcfg configuration. Either the content or source parameter must be passed.
+Creates XML files for hponcfg configuration. $content or $source must be passed.
 
 # Parameters
 

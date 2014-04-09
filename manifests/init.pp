@@ -12,8 +12,8 @@ class hponcfg (
     ensure => $package_ensure,
   }
 
-  if $xmlfiles {
-    validate_array($xmlfiles)
+  if $xmlfiles != undef {
+    validate_hash($xmlfiles)
     create_resources('hponcfg::xmlfile', $xmlfiles)
   }
 }
